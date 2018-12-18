@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="2">
+      <Name>CalculatorTestFixture::testSub</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>Calculator.cpp</File>
+        <Line>54</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 1 == m_calculator-&gt;sub(2, 1)
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>CalculatorTestFixture::testAdd</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>2</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>

@@ -1,0 +1,27 @@
+﻿生成启动时间为 2018/12/18 19:52:37。
+     1>项目“F:\资料\VS开发\C.C++开发\其它项目实战\C++测试\Calculator2\Calculator.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Calculator.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\资料\VS开发\C.C++开发\其它项目实战\C++测试\Calculator2\Release\Calculator.exe) 与 Linker 的 OutputFile 属性值(F:\资料\VS开发\C.C++开发\其它项目实战\C++测试\bin\demo2.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Calculator) 与 Linker 的 OutputFile 属性值(demo2)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         所有输出均为最新。
+         D:\VS\2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/demo2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Calculator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\资料\VS开发\C.C++开发\其它项目实战\C++测试\Calculator2\Release\Calculator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\资料\VS开发\C.C++开发\其它项目实战\C++测试\Calculator2\Release\Calculator.lib" /MACHINE:X86 Release\Calculator.obj
+         Release\stdafx.obj
+         Release\test.obj
+         正在生成代码
+         已完成代码的生成
+         Calculator.vcxproj -> F:\资料\VS开发\C.C++开发\其它项目实战\C++测试\Calculator2\Release\Calculator.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../bin/demo2.exe;#1" /manifest Release\Calculator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Calculator.unsuccessfulbuild”。
+         正在对“Release\Calculator.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\资料\VS开发\C.C++开发\其它项目实战\C++测试\Calculator2\Calculator.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.03
